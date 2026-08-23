@@ -1,0 +1,35 @@
+/* RHINO — ajuste fino da logo no quadro principal
+   Mantém a arte escolhida inteira, sem corte e com enquadramento premium. */
+.hero-logo{
+  width:260px;
+  height:230px;
+  object-fit:contain;
+  object-position:center;
+  border-radius:22px;
+  padding:6px;
+  background:rgba(5,8,5,.72);
+  border:1px solid rgba(127,155,69,.32);
+  box-shadow:0 18px 55px rgba(0,0,0,.55), 0 0 28px rgba(127,155,69,.08);
+  flex:0 0 auto;
+}
+@media (max-width:900px){
+  .hero-logo{
+    width:190px;
+    height:190px;
+    padding:5px;
+  }
+}
+@media (max-width:560px){
+  .hero{
+    flex-direction:column;
+    align-items:stretch;
+  }
+  .hero-logo{
+    display:block;
+    width:min(100%,230px);
+    height:175px;
+    margin:14px auto 0;
+    padding:4px;
+    border-radius:18px;
+  }
+}
