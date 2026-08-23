@@ -1,0 +1,33 @@
+:root{
+  --rhino:#7A8B3A !important;
+  --rhino-dark:#4F5F27 !important;
+  --forest:#182018 !important;
+  --olive:#394426 !important;
+  --orange:#D9821B !important;
+  --line:#2B3327 !important;
+  --card:#10130F !important;
+}
+body{background:#070907}
+.app{background:radial-gradient(circle at 78% 0%,#20291a 0,#070907 42%)}
+.sidebar{background:linear-gradient(180deg,#0c100b,#090c09)}
+.hero,.personal-hero,.focus-hero,.workout-summary{border-color:#39462d}
+.hero:after{background:#71833b;opacity:.12}
+.primary,.finish-btn,.publish-btn{background:linear-gradient(135deg,#7d8f3d,#55652b)!important;color:#0a0d08!important;box-shadow:0 8px 25px rgba(104,125,47,.18)}
+.secondary{border-color:#59673a;background:#171d13}
+.nav-item:hover,.nav-item.active{background:#1b2417}
+.nav-item.active{box-shadow:inset 3px 0 #7d8f3d}
+.pill{border-color:#65733b;color:#9AAE4C}
+.eyebrow,.brand span,.stats small,.exercise b,.panel-head svg,.weekly-header svg,.placeholder svg{color:#9AAE4C!important}
+.progress span,.focus-progress span{background:linear-gradient(90deg,#4F5F27,#9AAE4C)!important}
+.focus-medal{background:radial-gradient(circle,#788b3f,#26351c);border-color:#9aaa55}
+.focus-rank-badge,.level-node.active{border-color:#788b42}
+.level-node.active{background:#1a2415}
+.level-node.active strong{color:#9AAE4C}
+.day-btn.active{background:#1b2816;border-color:#7d8f3d;box-shadow:0 0 0 1px #7d8f3d inset}
+.day-btn.active strong,.day-btn.active span{color:#9AAE4C}
+.exercise-icon,.exercise-number,.student-avatar{background:#192117;color:#9AAE4C}
+.exercise-card.done{border-color:#647c38;background:#151d12}
+.status.published{color:#9AAE4C;border-color:#65763b}
+.avatar{background:#7d8f3d}
+/* Nova assinatura visual do emblema: oliva/musgo + aço + âmbar. */
+.hero-logo,.brand img{filter:hue-rotate(38deg) saturate(.82) contrast(1.04);box-shadow:0 15px 60px rgba(0,0,0,.85),0 0 28px rgba(112,132,52,.18)}
